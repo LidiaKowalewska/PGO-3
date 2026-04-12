@@ -40,7 +40,7 @@ public class ProduktMenu {
 
     }
 
-    @Override
+   /* @Override
     public boolean equals(ProduktMenu pr) {
         if (this.kod == pr.getKod()
                 && this.nazwa == pr.getNazwa()
@@ -49,8 +49,8 @@ public class ProduktMenu {
             return true;
         else
             return false;
+    }*/
     }
-}
 
 
 
