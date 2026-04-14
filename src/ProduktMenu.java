@@ -36,20 +36,19 @@ public class ProduktMenu {
 
     @Override
     public String toString() {
-        return String.format("Produkt: %s | Kod: %s | Cena %.2f zł | Kat: %s", kod, nazwa, cena, kategoria);
+        return String.format("Produkt: %s | Kod: %s | Cena %.2f zł | Kat: %s", nazwa, kod , cena, kategoria);
 
     }
 
-   /* @Override
-    public boolean equals(ProduktMenu pr) {
-        if (this.kod == pr.getKod()
-                && this.nazwa == pr.getNazwa()
-                && this.cena == pr.getCena()
-                && this.kategoria == pr.getKategoria())
+    @Override
+    public boolean equals(Object pr) {
+        ProduktMenu toCheck = (ProduktMenu) pr;
+        if (this.kod == toCheck.getKod())
             return true;
         else
             return false;
-    }*/
+
+        }
     }
 
 
