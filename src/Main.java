@@ -6,23 +6,27 @@ public class Main {
 
         System.out.println("Produkty z menu:");
         System.out.println(p1.toString());
-        System.out.println (p2.toString());
-        System.out.println (p3.toString());
+        System.out.println(p2.toString());
+        System.out.println(p3.toString());
+
 
         KlientKawiarni klient = new KlientKawiarni("Lidia", "Kowalewska", "kowalewska.lidka@gmail.com", 200);
 
-        System.out.println ("Klienci Kawiarni");
-        System.out.println (klient.toString());
-}
+        //System.out.println("Klienci Kawiarni");
+        //System.out.println(klient.toString());
 
 
-    /*    Zamowienie zamowienie = new Zamowienie(klient);
+        Zamowienie zamowienie = new Zamowienie(klient);
         zamowienie.dodajProdukt(p1);
         zamowienie.dodajProdukt(p2);
         zamowienie.dodajProdukt(p3);
 
+        System.out.println("klient kawiarni:");
         System.out.println(klient);
+
+        System.out.println("zamowienie:");
         System.out.println(zamowienie);
+
         System.out.println("Łączna wartość: " + zamowienie.policzWartosc());
         System.out.println("Liczba pozycji: " + zamowienie.policzLiczbeProduktow());
         System.out.println("Liczba produktów utworzonych w systemie: " + ProduktMenu.getLiczbaProduktow());
@@ -32,6 +36,7 @@ public class Main {
 
         zamowienie.oznaczJakoOplacone();
         System.out.println(zamowienie);
-    }*/
+
+    }
 }
 

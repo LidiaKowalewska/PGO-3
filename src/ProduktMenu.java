@@ -29,7 +29,7 @@ public class ProduktMenu {
         return kategoria;
     }
 
-    public static int LiczbaProduktow() {
+    public static int getLiczbaProduktow() {
         System.out.println("Liczba produktow " + liczbaProduktow);
         return liczbaProduktow;
     }
